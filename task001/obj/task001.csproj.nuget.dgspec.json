@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Learn\\New_CSharpTasks\\task001\\task001.csproj": {}
+    "C:\\Learn\\New_CSharpTasks\\task001\\task001.csproj": {}
   },
   "projects": {
-    "D:\\Learn\\New_CSharpTasks\\task001\\task001.csproj": {
+    "C:\\Learn\\New_CSharpTasks\\task001\\task001.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Learn\\New_CSharpTasks\\task001\\task001.csproj",
+        "projectUniqueName": "C:\\Learn\\New_CSharpTasks\\task001\\task001.csproj",
         "projectName": "task001",
-        "projectPath": "D:\\Learn\\New_CSharpTasks\\task001\\task001.csproj",
-        "packagesPath": "C:\\Users\\Nikita\\.nuget\\packages\\",
-        "outputPath": "D:\\Learn\\New_CSharpTasks\\task001\\obj\\",
+        "projectPath": "C:\\Learn\\New_CSharpTasks\\task001\\task001.csproj",
+        "packagesPath": "C:\\Users\\Envy\\.nuget\\packages\\",
+        "outputPath": "C:\\Learn\\New_CSharpTasks\\task001\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Nikita\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Envy\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
