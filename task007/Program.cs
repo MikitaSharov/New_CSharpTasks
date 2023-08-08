@@ -3,5 +3,5 @@
 Console.Write("Enter numder: ");
 double number = Convert.ToDouble(Console.ReadLine());
 
-if (number<3 && number>-5) Console.Write("true");
+if (number < 3 && number > -5) Console.Write("true");
 else Console.Write("false");
