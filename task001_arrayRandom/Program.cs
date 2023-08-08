@@ -8,7 +8,7 @@ void RandomArray(int[] collection)
     int length = collection.Length;
 
     for (int index = 0; index < length; index++) collection[index] = new Random().Next(10, 100);
-   /*  foreach (int item in array)  */
+    // foreach (int item in array) 
     Console.Write(string.Join(", ", array));
 }
 
