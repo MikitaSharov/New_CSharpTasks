@@ -20,7 +20,7 @@ if (productDigits >= 100 && productDigits < 1000) Console.WriteLine($"произ
 else Console.WriteLine($"произведение цифр числа {n} = {productDigits}, что не является трёхзначным числом");
 if (productDigits > a) Console.WriteLine($"произведение цифр числа {n} = {productDigits}, что больше числа {a}");
 else Console.WriteLine($"произведение цифр числа {n} = {productDigits}, что меньше числа {a}");
-if (sumDigits%5 == 0) Console.WriteLine($"сумма цифр числа {n} = {sumDigits}, что кратно 5");
+if (sumDigits % 5 == 0) Console.WriteLine($"сумма цифр числа {n} = {sumDigits}, что кратно 5");
 else Console.WriteLine($"сумма цифр числа {n} = {sumDigits}, что не кратно 5");
-if (sumDigits%a == 0) Console.WriteLine($"сумма цифр числа {n} = {sumDigits}, что кратно числу {a}");
+if (sumDigits % a == 0) Console.WriteLine($"сумма цифр числа {n} = {sumDigits}, что кратно числу {a}");
 else Console.WriteLine($"сумма цифр числа {n} = {sumDigits}, что не кратно числу {a}");
