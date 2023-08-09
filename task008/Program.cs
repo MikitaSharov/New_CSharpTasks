@@ -6,17 +6,9 @@
 int windowSideA = new Random().Next(0, 50);
 int windowSideB = new Random().Next(0, 50);
 int headD = new Random().Next(0, 50);
-int headRWithZazor = headD / 2 + 1;
+int minSize = headD + 2;
 
-Console.WriteLine($"a = {windowSideA}, b = {windowSideB}, башка с зазором = {headD + 2}");
+Console.WriteLine($"a = {windowSideA}, b = {windowSideB}, башка с зазором = {minSize}");
 
-if (windowSideA <= windowSideB)
-{
-    if (headRWithZazor < windowSideA / 2) Console.WriteLine("Башка пролазит");
-    else Console.WriteLine("Башка не пролазит");
-}
-else
-{
-    if (headRWithZazor < windowSideB / 2) Console.WriteLine("Башка пролазит");
-    else Console.WriteLine("Башка не пролазит");
-}
+if (windowSideA >= minSize && windowSideB >= minSize) Console.WriteLine("Башка пролазит");
+else Console.WriteLine("Башка не пролазит");
