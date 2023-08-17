@@ -25,5 +25,5 @@ for (int j = 0; j < array.Length; j++)
 
 if (count == 10) Console.WriteLine("true");
 else Console.WriteLine("false");
-/* Console.WriteLine(string.Join(", ", array));
-Console.WriteLine(count); */
+// Console.WriteLine(string.Join(", ", array));
+// Console.WriteLine(count);
